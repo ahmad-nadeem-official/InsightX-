@@ -5,10 +5,13 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 import io
+import time
 import base64
 from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings("ignore")
+start_time = time.time()
+
 
 st.set_page_config(layout="wide", page_title="InsightX", page_icon="📊")
 st.title("📊 InsightX")
@@ -42,9 +45,11 @@ if file:
 
 
   
-  
+    end_time = time.time()
+    elapsed_time = round(end_time - start_time, 2) 
+
     # Section 1
-    st.success("Analysis Successfully Done")
+    st.success(f"Analysis Successfully Done in {elapsed_time} seconds")
     st.header("Quick Review")
     col1, col2, col3 = st.columns(3)
 
@@ -165,10 +170,3 @@ if file:
 #         st.info("Report generation feature to be implemented. Export includes stats, plots, and summary.")
 # else:
 #     st.info("Please upload a dataset to begin.")
-
-with st.sidebar.expander("📌 About InsightX"):
-      st.markdown("""
-      **InsightX** is an interactive data analysis dashboard designed to empower users with quick insights from their datasets — without writing a single line of code.
-  
-      Upload your CSV or Excel files, explore data distributions, correlations, and trends visually, and quickly identify missing values or anomalies. Whether you're a data enthusiast or a professional analyst, InsightX provides a powerful yet simple interface to make data-driven decisions faster.
-      """)
