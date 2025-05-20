@@ -32,8 +32,7 @@ This README is your guide to understanding the power of InsightX, its features, 
 
 See InsightX in action! Watch this quick demo to witness how effortlessly you can upload a dataset, explore key metrics, and generate stunning visualizations.
 
-\[Insert Video Demo Link Here\]  
-_Note: A demo video will be added soon to showcase InsightX’s capabilities. Stay tuned for a visual walkthrough!_
+https://github.com/user-attachments/assets/edd56d8f-3e1e-4539-a823-2281fd75bb5d
 
 * * *
 
@@ -139,7 +138,7 @@ Ready to unleash the power of InsightX? Follow these steps to set it up locally 
 
 1.  **Clone the Repository**
     
-        git clone https://github.com/yourusername/insightx.git
+        https://github.com/ahmad-nadeem-official/InsightX-.git
         cd insightx
     
 2.  **Install Dependencies**
@@ -148,7 +147,7 @@ Ready to unleash the power of InsightX? Follow these steps to set it up locally 
     
 3.  **Run the Application**
     
-        streamlit run insightx.py
+        streamlit run main.py
     
 4.  **Access InsightX**  
     Open your browser and navigate to http://localhost:8501. Upload your dataset, and start exploring! 🚀
@@ -246,11 +245,9 @@ Check out the CONTRIBUTING.md file for detailed guidelines.
 
 Have questions, feedback, or ideas? Reach out to me!
 
-*   **Email**: your.email@example.com ✉️
+*   **Email**: ahmadnadeem701065@gmail.com ✉️
     
-*   **GitHub**: yourusername 🐙
-    
-*   **LinkedIn**: \[Your LinkedIn Profile\] 🔗
+*   **GitHub**: ahmad-nadeem-official🐙
     
 
 I’d love to hear how InsightX is helping you or how we can make it even better!
